@@ -1,3 +1,5 @@
 {
-    "item.another_structures.test" : "Test Ingot"
+    "item.another_structures.experimental_ingot" : "Experimental Ingot",
+
+    "itemgroup.another_structures" : "Another Structures"
 }
