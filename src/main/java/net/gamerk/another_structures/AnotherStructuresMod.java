@@ -2,6 +2,7 @@ package net.gamerk.another_structures;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.gamerk.another_structures.datagen.AnotherModelsProvider;
 import net.gamerk.another_structures.registries.ItemGroupRegistry;
 import net.gamerk.another_structures.registries.ItemRegistry;
 import org.slf4j.Logger;
@@ -19,6 +20,7 @@ public class AnotherStructuresMod implements ModInitializer {
 		ItemRegistry.registerModItems();
 		ItemGroupRegistry.registerItemGroups();
 
+		AnotherModelsProvider.
 		LOGGER.info("Launching mod!");
 	}
 }

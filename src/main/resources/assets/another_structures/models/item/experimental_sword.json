@@ -1,0 +1,6 @@
+{
+  "parent": "another_structures:item/doubled_experimental_sword",
+  "textures": {
+    "layer0": "another_structures:item/experimental_sword"
+  }
+}

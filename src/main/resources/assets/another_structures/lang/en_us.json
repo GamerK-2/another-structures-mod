@@ -1,5 +1,10 @@
 {
     "item.another_structures.experimental_ingot" : "Experimental Ingot",
+    "item.another_structures.experimental_pickaxe" : "Experimental Pickaxe",
+    "item.another_structures.experimental_axe" : "Experimental Axe",
+    "item.another_structures.experimental_hoe" : "Experimental Hoe",
+    "item.another_structures.experimental_sword" : "Experimental Doubled Sword",
+    "item.another_structures.experimental_shovel" : "Experimental Shovel",
 
     "itemgroup.another_structures" : "Another Structures"
 }

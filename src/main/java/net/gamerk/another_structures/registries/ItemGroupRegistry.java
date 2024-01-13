@@ -15,6 +15,11 @@ public class ItemGroupRegistry {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.another_structures"))
                     .icon(() -> new ItemStack(ItemRegistry.EXPERIMENTAL_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ItemRegistry.EXPERIMENTAL_INGOT);
+                        entries.add(ItemRegistry.EXPERIMENTAL_PICKAXE);
+                        entries.add(ItemRegistry.EXPERIMENTAL_HOE);
+                        entries.add(ItemRegistry.EXPERIMENTAL_SHOVEL);
+                        entries.add(ItemRegistry.EXPERIMENTAL_SWORD);
+                        entries.add(ItemRegistry.EXPERIMENTAL_AXE);
                     }).build());
 
     public static void registerItemGroups() {
